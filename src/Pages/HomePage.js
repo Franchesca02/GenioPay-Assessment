@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row } from "reactstrap";
+import { Col, Row } from "react-bootstrap";
 import "./styles.css";
 import American from "../Assets/American.png";
 import British from "../Assets/british.png";
