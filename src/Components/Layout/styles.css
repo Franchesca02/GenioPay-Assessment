@@ -1,0 +1,72 @@
+.nav {
+  width: 1055px;
+  height: 93px;
+  background: white;
+}
+.welcome {
+  font-family: Nunito Sans;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  padding-top: 10px;
+}
+.first {
+  width: 286px;
+}
+.second {
+  width: 356px;
+}
+.third {
+  width: 286px;
+}
+.planted {
+  padding-top: 8px;
+}
+.form {
+  width: 304px;
+  height: 53px;
+  background: #f8fcfc;
+  border-radius: 16px;
+  border: 1px solid #e6ebeb;
+}
+.input {
+  border: none;
+  outline: 0;
+  padding-left: 15px;
+  padding-top: 8px;
+  background: #f8fcfc;
+}
+.search {
+  padding-top: 13px;
+  padding-left: 10px;
+}
+.bells {
+  /* color: rgb(161, 160, 160); */
+}
+.image {
+  padding-top: 8.6px;
+}
+.verified p {
+  height: 5px;
+  padding-left: 8px;
+  color: #22c55e;
+  font-size: 12px;
+  font-weight: 400;
+  font: Nunito Sans;
+}
+.verified h6 {
+  padding-left: 8px;
+  color: #2b4146;
+  font-size: 15px;
+  font-weight: 600;
+  font: Nunito Sans;
+}
+
+@media only screen and (max-width: 600px) {
+  /* .nav {
+    background-color: yellowgreen;
+    width: 96%;
+    height: 70px;
+    flex-wrap: wrap;
+  } */
+}

@@ -1,0 +1,137 @@
+.aside {
+  width: 288px;
+  height: 1327px;
+  background: #017189;
+  font-family: Nunito Sans;
+}
+.logo {
+  text-align: center;
+}
+.side-wallet {
+  width: 246px;
+  height: 247px;
+  background: #2b899d;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+.nav-icon {
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+}
+.nav-amount {
+  font-size: 16px;
+  font-style: normal;
+  color: white;
+  font-weight: 700;
+}
+.nav-wallet-p {
+  font-family: Nunito Sans;
+  font-size: 14px;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  height: 2px;
+}
+.break {
+  border: 0.5px solid #eafbff;
+}
+.btn-in {
+  width: 99.9px;
+  height: 40px;
+  background: #fda4af;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  font: Nunito Sans;
+}
+.btn-out {
+  width: 99.9px;
+  height: 40px;
+  background: white;
+  color: #2b899d;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  font: Nunito Sans;
+}
+.dash-items {
+  display: flex;
+  width: 246px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: white;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 12px;
+}
+.dash-items h4 {
+  padding-left: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #017189;
+  font: Nunito Sans;
+}
+.dash {
+  padding-left: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  font: Nunito Sans;
+}
+.dash-items-2,
+.dash-items-3,
+.dash-items-4,
+.dash-items-5,
+.dash-items-6 {
+  display: flex;
+  width: 246px;
+  height: 56px;
+  border-radius: 8px;
+  /* background-color: white; */
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 12px;
+}
+.referrals {
+  width: 246px;
+  height: 195px;
+  background: #fff5e9;
+  border-radius: 8px;
+  margin-top: 200px;
+  margin: 0 auto;
+  position: relative;
+  top: 187px;
+}
+.text1 {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 12px;
+}
+.text2 {
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 12px;
+}
+
+.btn button {
+  width: 201px;
+  height: 56px;
+  border: none;
+  border-radius: 8px;
+  background: #017189;
+  color: white;
+  margin-left: 8px;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 700;
+}
