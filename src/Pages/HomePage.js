@@ -10,6 +10,7 @@ import LineChart from "../Components/LineChart";
 import { UserData } from "../Data";
 
 const HomePage = () => {
+  // eslint-disable-next-line
   const [userData, setUserData] = useState({
     labels: UserData.map((data) => data.year),
     datasets: [
