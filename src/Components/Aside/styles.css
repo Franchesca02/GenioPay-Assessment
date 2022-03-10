@@ -135,3 +135,11 @@
   font-size: 16px;
   font-weight: 700;
 }
+@media only screen and (max-width: 600px) {
+  .aside {
+    width: 288px;
+    height: 1127px;
+    margin: 0 auto;
+    /* display: none; */
+  }
+}

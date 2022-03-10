@@ -5,7 +5,14 @@ import Huss from "../../Assets/huss.png";
 const HeadNav = () => {
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        md={6}
+        sm={3}
+        bg="light"
+        variant="light"
+      >
         <Container>
           <Navbar.Brand>
             <h6 className="welcome text-dark">Welcome, Huss Smith</h6>
@@ -33,7 +40,7 @@ const HeadNav = () => {
                   </div>
                 </div>
               </Nav.Link>
-              <Nav.Link eventKey={2} href="#memes">
+              <Nav.Link eventKey={2}>
                 <div className="d-flex">
                   <div className="image">
                     <img src={Huss} alt="An icon of Smith" />

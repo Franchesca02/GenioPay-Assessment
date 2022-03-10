@@ -9,6 +9,23 @@
 a {
   text-decoration: none;
 }
+.anchor {
+  text-decoration: none;
+  color: black;
+}
+.line-chart {
+  background: linear-gradient(
+    179.7deg,
+    rgba(47, 162, 185, 0.12) -39.05%,
+    rgba(47, 162, 185, 0) 99.74%
+  );
+  width: 871px;
+  height: 273px;
+  position: relative;
+  left: 63px;
+  top: 70px;
+}
+
 .personal-acc {
   width: 332px;
   height: 164px;
@@ -109,4 +126,34 @@ h4 {
   text-align: center;
   border-radius: 50%;
   padding-top: 3px;
+}
+.links {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+@media only screen and (max-width: 600px) {
+  .line-chart {
+    background: linear-gradient(
+      179.7deg,
+      rgba(47, 162, 185, 0.12) -39.05%,
+      rgba(47, 162, 185, 0) 99.74%
+    );
+    width: 371px;
+    height: 173px;
+    position: relative;
+    left: 43px;
+    top: 50px;
+  }
+  .euro-wallet,
+  .fees,
+  .personal-acc {
+    width: 292px;
+    height: 164px;
+    margin: 8px;
+    /* padding-bottom: 25px; */
+  }
+  h4 {
+    font-size: 23px;
+    font-weight: 600;
+  }
 }
